@@ -9,7 +9,7 @@
 header {
 	width: 100%;
 	height: 70px;
-	background-color: #ff9c33 /*#3a3a3a*/;
+	background-color: #b2dcf7;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -17,7 +17,7 @@ header {
 }
 
 header > a, header button {
-	color: #fff;
+	color: #ffffff;
 	margin: 0 15px;
 	font-size: 1.3em;
 }
@@ -44,7 +44,7 @@ header .dropdown-1:hover .content  {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	background-color: #ffebd5/*rgb(245, 245, 245)*/;
+	background-color: #d6efff/*rgb(245, 245, 245)*/;
 	top: 70px;
 	width: 140%;
 	padding: 12px 15px;
@@ -113,7 +113,7 @@ h1 {
 	text-align: center;
 	border: 2px solid black;
 	border-radius: 15px 50px;
-	box-shadow: 10px 5px 5px #ffc280;
+	box-shadow: 10px 5px 5px #86c8f2;
 }
 
 .container {
@@ -160,7 +160,7 @@ h1 {
 .download-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff9c33;
+    background-color: #5db5f7;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -170,7 +170,7 @@ h1 {
 }
 
 .download-btn:hover {
-    background-color: #e68a00;
+    background-color: #349fe0;
     transform: scale(1.05);
 }
 

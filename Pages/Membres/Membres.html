@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Membres.css">
+		<title>BE_Sujet18</title>
+		<link rel="icon" type="image/x-icon" href="../../Images/favicon.ico">
+	</head>
+	<body>
+		<header id="navbar" class="nav">
+			<a href="../../index.html">Accueil</a>
+			<div class="dropdown-1">
+				<button>TP Scratch</button>
+				<div class="content">
+					<a href="../Scratch/Slides-Scratch/Slides-Scratch.html">Slides Scratch</a>
+					<a href="../Scratch/TP1/TP1.html">TP1</a>
+					<a href="../Scratch/TP2/TP2.html">TP2</a>
+					<a href="../Scratch/TP3/TP3.html">TP3</a>
+					<a href="../Scratch/TP4/TP4.html">TP4</a>
+					<a href="../Scratch/TP5/TP5.html">TP5</a>
+					<a href="../Scratch/TP6/TP6.html">TP6</a>
+					<a href="../Scratch/TP7/TP7.html">TP7</a>
+					<a href="../Scratch/TP8/TP8.html">TP8</a>
+					<a href="../Scratch/TP9/TP9.html">TP9</a>
+					<a href="../Scratch/TP10/TP10.html">TP10</a>
+				</div>
+			</div>
+			<div class="dropdown-1">
+				<button>TP Python</button>
+				<div class="content">
+					<a href="../Python/Slides-Python-Basthon/Slides-Python.html">Slides Python Basthon</a>
+					<a href="../Python/Slides-Types/Slides-Python-Types.html">Slides sur les types</a>
+					<a href="../Python/Slides-Indentation/Slides-Indentation.html">Slides Python</a>
+					<a href="../Python/TP1/TP1.html">TP1</a>
+                    <a href="../Python/TP2/TP2.html">TP2</a>
+                    <a href="../Python/TP3/TP3.html">TP3</a>
+                    <a href="../Python/TP4/TP4.html">TP4</a>
+                    <a href="../Python/TP5/TP5.html">TP5</a>
+                    <a href="../Python/TP6/TP6.html">TP6</a>
+                    <a href="../Python/TP7/TP7.html">TP7</a>
+				</div>
+			</div>
+			<a href="Membres.html">Membres</a>
+			<a class="icon" onclick="myFunction()">&#9776</a> <!-- UNICODE -->
+		</header>
+
+		<script>
+            function myFunction() {
+                var x = document.getElementById("navbar");
+                if (x.className === "nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav";
+                }
+            }
+		</script>
+
+		<h1>Membres</h1>
+
+		<section class="membres-container">
+    		<div class="membre">
+        		<img class="avatar" src="Images/maria.png" alt="Maria Zebda">
+        		<p><strong>Maria Zebda</strong> : étudiante</p>
+        		<img class="logo" src="Images/logo-toulouse.png" alt="Université de Toulouse">
+    		</div>
+    		<div class="membre">
+        		<img class="avatar" src="Images/ronan.png" alt="Ronan Sicre">
+       			<p><strong>Ronan Sicre</strong> : Encadrant</p>
+        		<div class="logos-col">
+            		<img class="logo" src="Images/logo-toulouse.png" alt="Université de Toulouse">
+            		<img class="logo lis" src="Images/logo-lis.png" alt="LIS">
+        		</div>
+    		</div>
+    		<div class="membre">
+        		<img class="avatar" src="Images/salim.png" alt="Salim Moussaoui">
+        		<p><strong>Salim Moussaoui</strong> : étudiant</p>
+        		<img class="logo" src="Images/logo-toulouse.png" alt="Université de Toulouse">
+    		</div>
+		</section>
+	</body>
+</html>
