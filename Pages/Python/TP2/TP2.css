@@ -116,3 +116,55 @@ h1 {
 	box-shadow: 10px 5px 5px #86c8f2;
 }
 
+.tp-description {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.tp-content {
+    max-width: 800px;
+    background-color: #e6f4fd; /* bleu clair pastel */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.tp-content h2, .tp-content h3 {
+    color: #3399cc; /* bleu pour titres */
+    margin-bottom: 1rem;
+}
+
+.tp-content ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tp-content li {
+    margin-bottom: 0.5rem;
+}
+
+.tp-download {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.download-button {
+    background-color: #5db5f7;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.download-button:hover {
+    background-color: #349fe0;
+}
